@@ -1,4 +1,3 @@
-"""NoteBuddy: an open-source AI study assistant. Run with:  streamlit run app.py"""
 from __future__ import annotations
 
 from datetime import datetime
@@ -37,7 +36,6 @@ SUGGESTIONS = ["Summarise this in 5 lines", "What are the key terms I should kno
                "Explain the hardest idea like I'm new to it"]
 
 
-# ───────────────────────── sign in ─────────────────────────
 def restore_session() -> None:
     if state.user():
         return
